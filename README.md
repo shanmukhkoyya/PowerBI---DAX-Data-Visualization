@@ -2,6 +2,12 @@
 
 This repository contains a Power BI Desktop assignment focused on DAX and data visualization. The editable `.pbix` file is the main project deliverable.
 
+## Project overview graphic
+
+![Static overview of the DAX and data visualization assignment](images/project-overview.svg)
+
+*This is a project overview graphic, not a screenshot of the Power BI report. The actual visuals, measures, and values must be reviewed in the PBIX using Power BI Desktop.*
+
 ## Project file
 
 | File | Purpose |
