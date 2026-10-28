@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f8fc"/><stop offset="1" stop-color="#e9eef7"/></linearGradient>
+  <linearGradient id="nav" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14243a"/><stop offset="1" stop-color="#214c69"/></linearGradient>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#20334c" flood-opacity=".09"/></filter>
+</defs>
+<rect width="1400" height="860" fill="url(#bg)"/>
+<rect width="1400" height="152" fill="url(#nav)"/>
+<text x="72" y="57" fill="#b9d7ed" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">POWER BI PROJECT OVERVIEW</text>
+<text x="72" y="104" fill="#ffffff" font-family="Arial,sans-serif" font-size="38" font-weight="700">DAX &amp; Data Visualization</text>
+<text x="72" y="132" fill="#d4e4ef" font-family="Arial,sans-serif" font-size="17">A project companion graphic for reviewing the Power BI assignment</text>
+<rect x="72" y="181" width="1256" height="62" rx="13" fill="#fff5de" stroke="#e5c478"/>
+<circle cx="105" cy="212" r="12" fill="#bd8623"/>
+<text x="105" y="217" fill="#ffffff" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700">i</text>
+<text x="131" y="207" fill="#684b14" font-family="Arial,sans-serif" font-size="16" font-weight="700">STATIC PROJECT OVERVIEW — NOT A POWER BI SCREENSHOT</text>
+<text x="131" y="228" fill="#684b14" font-family="Arial,sans-serif" font-size="13">The repository contains the editable PBIX. Open it in Power BI Desktop to inspect the actual pages, values, and measures.</text>
+<g filter="url(#shadow)">
+  <rect x="72" y="272" width="602" height="214" rx="18" fill="#ffffff"/>
+  <rect x="698" y="272" width="630" height="214" rx="18" fill="#ffffff"/>
+  <rect x="72" y="511" width="602" height="214" rx="18" fill="#ffffff"/>
+  <rect x="698" y="511" width="630" height="214" rx="18" fill="#ffffff"/>
+</g>
+<g font-family="Arial,sans-serif">
+  <rect x="98" y="300" width="60" height="60" rx="14" fill="#e5f0fb"/>
+  <rect x="114" y="311" width="28" height="37" rx="3" fill="none" stroke="#24699a" stroke-width="3"/><path d="M119 320H137M119 327H137M119 334H132" stroke="#24699a" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="178" y="321" fill="#203348" font-size="21" font-weight="700">Power BI report file</text>
+  <text x="178" y="351" fill="#5f7083" font-size="15">Editable PBIX deliverable</text>
+  <text x="102" y="398" fill="#334a61" font-size="15">Open the report in Power BI Desktop to inspect:</text>
+  <text x="102" y="425" fill="#5f7083" font-size="14">• report pages and visual interactions</text>
+  <text x="102" y="449" fill="#5f7083" font-size="14">• data fields, filters, and the data model</text>
+  <text x="102" y="473" fill="#5f7083" font-size="14">• source connections and refresh requirements</text>
+  <rect x="726" y="300" width="60" height="60" rx="14" fill="#e6f6ef"/>
+  <text x="756" y="337" fill="#287957" text-anchor="middle" font-size="22" font-weight="700">ƒx</text>
+  <text x="806" y="321" fill="#203348" font-size="21" font-weight="700">DAX measures</text>
+  <text x="806" y="351" fill="#5f7083" font-size="15">Calculation and KPI layer</text>
+  <text x="728" y="398" fill="#334a61" font-size="15">Review the actual measure definitions in the PBIX.</text>
+  <text x="728" y="425" fill="#5f7083" font-size="14">Confirm the filter context and aggregation logic.</text>
+  <text x="728" y="449" fill="#5f7083" font-size="14">Compare displayed values with the underlying tables.</text>
+  <text x="728" y="473" fill="#5f7083" font-size="14">This graphic does not invent or display KPI values.</text>
+  <rect x="98" y="539" width="60" height="60" rx="14" fill="#f1eafb"/>
+  <rect x="110" y="574" width="8" height="13" rx="2" fill="#8055b7"/><rect x="123" y="559" width="8" height="28" rx="2" fill="#8055b7"/><rect x="136" y="547" width="8" height="40" rx="2" fill="#8055b7"/>
+  <text x="178" y="560" fill="#203348" font-size="21" font-weight="700">Visual design</text>
+  <text x="178" y="590" fill="#5f7083" font-size="15">Charts, cards, tables, and slicers</text>
+  <text x="102" y="637" fill="#334a61" font-size="15">Inspect readability and user experience:</text>
+  <text x="102" y="664" fill="#5f7083" font-size="14">• clear titles, units, and number formats</text>
+  <text x="102" y="688" fill="#5f7083" font-size="14">• meaningful comparisons and uncluttered layout</text>
+  <text x="102" y="712" fill="#5f7083" font-size="14">• filters and navigation, where implemented</text>
+  <rect x="726" y="539" width="60" height="60" rx="14" fill="#fff0e6"/>
+  <path d="M740 553H772M740 565H766M740 577H758M746 545V588" stroke="#c66a35" stroke-width="3" stroke-linecap="round"/>
+  <text x="806" y="560" fill="#203348" font-size="21" font-weight="700">Review checklist</text>
+  <text x="806" y="590" fill="#5f7083" font-size="15">A practical way to validate the report</text>
+  <text x="728" y="637" fill="#334a61" font-size="15">1. Open the PBIX and confirm it loads.</text>
+  <text x="728" y="664" fill="#5f7083" font-size="14">2. Review all report pages and visual filters.</text>
+  <text x="728" y="688" fill="#5f7083" font-size="14">3. Inspect measures and relationships.</text>
+  <text x="728" y="712" fill="#5f7083" font-size="14">4. Capture a real export or screenshot when available.</text>
+</g>
+<rect x="72" y="758" width="1256" height="58" rx="14" fill="#1c344a"/>
+<text x="98" y="782" fill="#d4e5f0" font-family="Arial,sans-serif" font-size="14" font-weight="700">MAIN DELIVERABLE</text>
+<text x="98" y="803" fill="#ffffff" font-family="Arial,sans-serif" font-size="16">Power BI Assignment – DAX &amp; Data Visualization.pbix</text>
+<text x="1302" y="792" text-anchor="end" fill="#aac3d5" font-family="Arial,sans-serif" font-size="13">Companion overview • no fabricated metrics</text>
+</svg>
