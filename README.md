@@ -13,6 +13,7 @@ This repository contains a Power BI Desktop assignment focused on DAX and data v
 | File | Purpose |
 |---|---|
 | [Power BI Assignment – DAX & Data Visualization.pbix](Power%20BI%20Assignment%20%E2%80%93%20DAX%20%26%20Data%20Visualization.pbix) | Power BI report and model for review in Power BI Desktop |
+| [Static project overview](images/project-overview.svg) | Overview of report components and review steps; not a report screenshot |
 
 ## Tools
 
