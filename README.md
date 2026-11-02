@@ -23,7 +23,7 @@ sequenceDiagram
 | Formatting | Are units and percentages consistent? | To inspect |
 
 ## Artifact index
-- [Power BI file](PowerBI%20DAX%20Data%20Visualization.pbix)
+- [Power BI file](Power%20BI%20Assignment%20%E2%80%93%20DAX%20%26%20Data%20Visualization.pbix)
 - [Technical review notes](docs/TECHNICAL_REVIEW.md)
 - [Conceptual project illustration](images/project-overview.svg)
 
