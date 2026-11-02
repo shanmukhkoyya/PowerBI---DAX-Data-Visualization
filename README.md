@@ -1,41 +1,37 @@
-<div align="center">
-<h1>⚡ POWER BI / DAX — ENGINEERING REVIEW</h1>
-<img src="https://img.shields.io/badge/FILE-PBIX-F2C811?style=for-the-badge&logo=powerbi"/>
-<img src="https://img.shields.io/badge/REVIEW-TECHNICAL-4479A1?style=for-the-badge"/>
-</div>
+<div align="center"><h1>⚡ DAX / POWER BI — REVIEW SHEET</h1><img src="https://img.shields.io/badge/ASSET-PBIX-F2C811?style=for-the-badge&logo=powerbi"/> <img src="https://img.shields.io/badge/STATUS-INSPECTION%20REQUIRED-9B3A3A?style=for-the-badge"/></div>
 
-## Report inspection circuit
+## Review sequence
 ```mermaid
-flowchart LR
- A[PBIX] --> B[Model]
- B --> C[Relationships]
- C --> D[Measures]
- D --> E[Filters]
- E --> F[Visuals]
- F --> G[Reconciliation]
+sequenceDiagram
+ participant P as PBIX
+ participant M as Model
+ participant D as DAX
+ participant V as Visuals
+ P->>M: Inspect tables & relationships
+ M->>D: Review measure definitions
+ D->>V: Check filter context
+ V->>P: Reconcile displayed results
 ```
 
-## Asset manifest
-| Artifact | Role |
-|---|---|
-| [Power BI report](PowerBI%20DAX%20Data%20Visualization.pbix) | Main report file |
-| [Technical review](docs/TECHNICAL_REVIEW.md) | Review notes |
-| [Project overview SVG](images/project-overview.svg) | Conceptual illustration |
+## Technical test matrix
+| TEST AREA | REVIEW QUESTION | STATUS |
+|---|---|---|
+| Model | Are relationships valid? | To inspect |
+| Filter context | Do slicers change measures correctly? | To inspect |
+| Aggregation | Is SUM / AVERAGE / DISTINCTCOUNT suitable? | To inspect |
+| Time logic | Is the date table configured correctly? | To inspect |
+| Formatting | Are units and percentages consistent? | To inspect |
 
-## Measure review matrix
-| Test | Reviewer question |
-|---|---|
-| Filter context | Does the measure respond correctly to slicers? |
-| Aggregation | Is SUM / AVERAGE / DISTINCTCOUNT appropriate? |
-| Relationships | Do dimensions filter intended fact tables? |
-| Time logic | Is the date table valid? |
-| Formatting | Are units and percentages consistent? |
+## Artifact index
+- [Power BI file](PowerBI%20DAX%20Data%20Visualization.pbix)
+- [Technical review notes](docs/TECHNICAL_REVIEW.md)
+- [Conceptual project illustration](images/project-overview.svg)
 
-> Evidence limitation: The SVG is conceptual. No verified screenshot gallery or complete DAX inventory is currently documented. Inspect the PBIX before making claims about specific measures or interactions.
+> The SVG is conceptual. A complete DAX inventory and verified screenshot gallery are not documented yet. Do not claim specific measure behaviour until the PBIX is inspected.
 
-## Sign-off gates
-- [ ] Inventory measures and definitions.
+## Reviewer sign-off
+- [ ] Inventory every measure and definition.
 - [ ] Check relationship cardinality.
 - [ ] Reconcile headline values to source data.
 - [ ] Test blank, zero and multi-select cases.
-- [ ] Capture genuine report screenshots.
+- [ ] Capture genuine Power BI screenshots.
