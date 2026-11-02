@@ -8,6 +8,7 @@ This repository contains a Power BI Desktop assignment focused on DAX (Data Anal
 |---|---|
 | [Power BI Assignment – DAX & Data Visualization.pbix](Power%20BI%20Assignment%20%E2%80%93%20DAX%20%26%20Data%20Visualization.pbix) | Editable Power BI report and data model |
 | [Project Overview](images/project-overview.svg) | Static overview graphic for the assignment |
+| [Technical Review](docs/TECHNICAL_REVIEW.md) | Verified repository contents, DAX/model review checklist, validation steps and current evidence gaps |
 
 ## Tools and Technologies
 
@@ -20,12 +21,15 @@ This repository contains a Power BI Desktop assignment focused on DAX (Data Anal
 1. Download the PBIX file from this repository.
 2. Open it using Power BI Desktop.
 3. Review the report pages and visuals.
-4. Inspect the data model and any DAX measures.
+4. Inspect the data model and DAX measures.
 5. Review data-source settings before refreshing the report.
+6. Use the [Technical Review](docs/TECHNICAL_REVIEW.md) to record exact formulas, validate results, and capture genuine screenshots.
 
-## Documentation Note
+## Documentation and Evidence Status
 
-The repository currently contains the PBIX file and a static project overview graphic. It does not include exported Power BI report screenshots or a separate written analysis. The SVG is an overview graphic, not a screenshot of the report. Review the actual visuals, measures, and source data in Power BI Desktop.
+The repository currently includes the PBIX file and a static project overview graphic. It does not yet include exported Power BI report screenshots, a source-data file, a DAX measure listing, or independently validated findings. The SVG is an overview graphic, not a screenshot of the report.
+
+The technical review document is intentionally transparent about these gaps. Do not treat uninspected measure names, values, or report details as verified.
 
 ## Author
 
