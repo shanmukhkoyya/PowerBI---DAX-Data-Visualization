@@ -1,52 +1,28 @@
-# DAX Assignment | Power BI Desktop
+<div align="center"><h1>⚡ DAX & POWER BI — TECHNICAL HAND-OFF</h1><b>Focused report-file review</b><img src="https://img.shields.io/badge/Power%20BI-PBIX-F2C811?logo=powerbi"/> <img src="https://img.shields.io/badge/DAX-MEASURES-4479A1"/></div>
 
-**Deliverable type:** Editable Power BI assignment  
-**Primary tools:** Power BI Desktop · DAX · Report visuals
-
----
-
-## Assignment hand-off
-
-This repository stores the Power BI assignment file and its supporting review notes. The PBIX is the principal deliverable; the static SVG is only a repository overview illustration.
-
-| Artifact | Purpose |
+## Report asset card
+| Main file | Supporting material |
 |---|---|
-| [Power BI Assignment – DAX & Data Visualization.pbix](Power%20BI%20Assignment%20%E2%80%93%20DAX%20%26%20Data%20Visualization.pbix) | Editable report and model |
-| [Technical Review](docs/TECHNICAL_REVIEW.md) | Inspection checklist, validation steps and current evidence gaps |
-| [Project Overview](images/project-overview.svg) | Static assignment overview graphic |
+| [Power BI report](PowerBI%20DAX%20Data%20Visualization.pbix) | [Technical review](docs/TECHNICAL_REVIEW.md) |
+| [Project overview SVG](images/project-overview.svg) | Concept illustration |
 
-## Review sequence
+## Inspection route
+<p align="center">📁 PBIX → 🧱 MODEL → 🧮 MEASURES → 🎛️ FILTERS → 📊 VISUALS → ✔️ VALIDATION</p>
 
-Use this order when inspecting the PBIX:
-
-1. **Report view** — list each report page and identify the question each visual answers.
-2. **Model view** — record every table, relationship, cardinality and filter direction.
-3. **Data view** — inspect column types, blanks, duplicate keys and source fields.
-4. **DAX measures** — copy the exact measure names and formulas; check filter context and aggregation logic.
-5. **Validation** — compare key measures with independent calculations from the source data.
-6. **Evidence** — export genuine report screenshots from Power BI Desktop.
-
-## Evidence currently in this repository
-
-| Evidence item | Current status |
+## Technical review matrix
+| Area | Reviewer question |
 |---|---|
-| Editable PBIX | Present |
-| Static project overview SVG | Present; not a report screenshot |
-| Source-data file | Not included in the repository |
-| Exported Power BI report screenshots | Not included |
-| DAX measure inventory | Not included |
-| Independently validated KPI results | Not documented |
+| Measure logic | Are aggregations and filter context correct? |
+| Relationships | Do dimensions filter intended fact tables? |
+| Time logic | Is the date table valid? |
+| Formatting | Are units and percentages consistent? |
+| Interaction | Do slicers behave as expected? |
 
-The missing items are intentionally not filled with guessed table names, DAX formulas, or invented business findings.
+> Evidence limitation: The SVG is conceptual. No verified screenshot gallery or complete DAX inventory is currently documented. Inspect the PBIX before making claims about specific measures or interactions.
 
-## Open and inspect
-
-Download the PBIX and open it in Microsoft Power BI Desktop. Review its data-source settings before refreshing. Use the [Technical Review](docs/TECHNICAL_REVIEW.md) as the inspection record.
-
-## Scope
-
-This is a DAX and visualization assignment repository. Until the model and measures are inspected against the actual PBIX and data source, no specific KPI result or business conclusion is claimed here.
-
----
-
-**Author:** Shanmukh Koyya · [GitHub](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/)
+## Reviewer checklist
+- [ ] Inventory measures and definitions.
+- [ ] Check relationship cardinality.
+- [ ] Reconcile headline values to source data.
+- [ ] Test blank, zero and multi-select cases.
+- [ ] Capture genuine report screenshots.
