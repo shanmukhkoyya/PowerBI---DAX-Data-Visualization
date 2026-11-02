@@ -1,39 +1,52 @@
-# Power BI: DAX & Data Visualization
+# DAX Assignment | Power BI Desktop
 
-This repository contains a Power BI Desktop assignment focused on DAX (Data Analysis Expressions) and data visualization. The editable PBIX file is the main project deliverable.
+**Deliverable type:** Editable Power BI assignment  
+**Primary tools:** Power BI Desktop · DAX · Report visuals
 
-## Project Deliverables
+---
 
-| File | Description |
+## Assignment hand-off
+
+This repository stores the Power BI assignment file and its supporting review notes. The PBIX is the principal deliverable; the static SVG is only a repository overview illustration.
+
+| Artifact | Purpose |
 |---|---|
-| [Power BI Assignment – DAX & Data Visualization.pbix](Power%20BI%20Assignment%20%E2%80%93%20DAX%20%26%20Data%20Visualization.pbix) | Editable Power BI report and data model |
-| [Project Overview](images/project-overview.svg) | Static overview graphic for the assignment |
-| [Technical Review](docs/TECHNICAL_REVIEW.md) | Verified repository contents, DAX/model review checklist, validation steps and current evidence gaps |
+| [Power BI Assignment – DAX & Data Visualization.pbix](Power%20BI%20Assignment%20%E2%80%93%20DAX%20%26%20Data%20Visualization.pbix) | Editable report and model |
+| [Technical Review](docs/TECHNICAL_REVIEW.md) | Inspection checklist, validation steps and current evidence gaps |
+| [Project Overview](images/project-overview.svg) | Static assignment overview graphic |
 
-## Tools and Technologies
+## Review sequence
 
-- Microsoft Power BI Desktop
-- DAX (Data Analysis Expressions)
-- Power BI report visuals
+Use this order when inspecting the PBIX:
 
-## How to Review the Project
+1. **Report view** — list each report page and identify the question each visual answers.
+2. **Model view** — record every table, relationship, cardinality and filter direction.
+3. **Data view** — inspect column types, blanks, duplicate keys and source fields.
+4. **DAX measures** — copy the exact measure names and formulas; check filter context and aggregation logic.
+5. **Validation** — compare key measures with independent calculations from the source data.
+6. **Evidence** — export genuine report screenshots from Power BI Desktop.
 
-1. Download the PBIX file from this repository.
-2. Open it using Power BI Desktop.
-3. Review the report pages and visuals.
-4. Inspect the data model and DAX measures.
-5. Review data-source settings before refreshing the report.
-6. Use the [Technical Review](docs/TECHNICAL_REVIEW.md) to record exact formulas, validate results, and capture genuine screenshots.
+## Evidence currently in this repository
 
-## Documentation and Evidence Status
+| Evidence item | Current status |
+|---|---|
+| Editable PBIX | Present |
+| Static project overview SVG | Present; not a report screenshot |
+| Source-data file | Not included in the repository |
+| Exported Power BI report screenshots | Not included |
+| DAX measure inventory | Not included |
+| Independently validated KPI results | Not documented |
 
-The repository currently includes the PBIX file and a static project overview graphic. It does not yet include exported Power BI report screenshots, a source-data file, a DAX measure listing, or independently validated findings. The SVG is an overview graphic, not a screenshot of the report.
+The missing items are intentionally not filled with guessed table names, DAX formulas, or invented business findings.
 
-The technical review document is intentionally transparent about these gaps. Do not treat uninspected measure names, values, or report details as verified.
+## Open and inspect
 
-## Author
+Download the PBIX and open it in Microsoft Power BI Desktop. Review its data-source settings before refreshing. Use the [Technical Review](docs/TECHNICAL_REVIEW.md) as the inspection record.
 
-**Shanmukh Koyya**
+## Scope
 
-- [GitHub](https://github.com/shanmukhkoyya)
-- [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/)
+This is a DAX and visualization assignment repository. Until the model and measures are inspected against the actual PBIX and data source, no specific KPI result or business conclusion is claimed here.
+
+---
+
+**Author:** Shanmukh Koyya · [GitHub](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/)
