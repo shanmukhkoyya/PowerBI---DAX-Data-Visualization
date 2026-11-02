@@ -1,38 +1,35 @@
 # Power BI: DAX & Data Visualization
 
-This repository contains a Power BI Desktop assignment focused on DAX and data visualization. The editable `.pbix` file is the main project deliverable.
+This repository contains a Power BI Desktop assignment focused on DAX (Data Analysis Expressions) and data visualization. The editable PBIX file is the main project deliverable.
 
-## Project overview graphic
+## Project Deliverables
 
-![Static overview of the DAX and data visualization assignment](images/project-overview.svg)
-
-*This is a project overview graphic, not a screenshot of the Power BI report. The actual visuals, measures, and values must be reviewed in the PBIX using Power BI Desktop.*
-
-## Project file
-
-| File | Purpose |
+| File | Description |
 |---|---|
-| [Power BI Assignment – DAX & Data Visualization.pbix](Power%20BI%20Assignment%20%E2%80%93%20DAX%20%26%20Data%20Visualization.pbix) | Power BI report and model for review in Power BI Desktop |
-| [Static project overview](images/project-overview.svg) | Overview of report components and review steps; not a report screenshot |
+| [Power BI Assignment – DAX & Data Visualization.pbix](Power%20BI%20Assignment%20%E2%80%93%20DAX%20%26%20Data%20Visualization.pbix) | Editable Power BI report and data model |
+| [Project Overview](images/project-overview.svg) | Static overview graphic for the assignment |
 
-## Tools
+## Tools and Technologies
 
-- Power BI Desktop
+- Microsoft Power BI Desktop
 - DAX (Data Analysis Expressions)
 - Power BI report visuals
 
-## How to review the project
+## How to Review the Project
 
-1. Download the `.pbix` file from this repository.
-2. Open it in Power BI Desktop.
+1. Download the PBIX file from this repository.
+2. Open it using Power BI Desktop.
 3. Review the report pages and visuals.
-4. Inspect the model and any DAX measures in the Fields/Data pane and Model view.
-5. If Power BI requests a data-source connection or refresh, review the source settings before refreshing.
+4. Inspect the data model and any DAX measures.
+5. Review data-source settings before refreshing the report.
 
-## Review note
+## Documentation Note
 
-The repository currently contains the Power BI file only. No exported report screenshot or separate written analysis is included, so use the actual report in Power BI Desktop to verify its visuals, measures, and source data.
+The repository currently contains the PBIX file and a static project overview graphic. It does not include exported Power BI report screenshots or a separate written analysis. The SVG is an overview graphic, not a screenshot of the report. Review the actual visuals, measures, and source data in Power BI Desktop.
 
 ## Author
 
-**Shanmukh Koyya** · [GitHub](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/)
+**Shanmukh Koyya**
+
+- [GitHub](https://github.com/shanmukhkoyya)
+- [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/)
